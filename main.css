@@ -1,0 +1,38 @@
+
+.blue{
+  color: blue;
+}
+.yellow{
+  color: yellow;
+}
+body{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+p{
+  padding: 7px 15px;
+  display: block
+}
+.select{
+  color: grey;
+  text-decoration: underline;
+  border: 1px solid grey;
+
+}
+button{
+  display: block;
+  margin-bottom: 20px;
+}
+.chose-color{
+  display: flex;
+}
+.red{
+  color: red !important;
+  border: 1px solid red;
+}
+.blue{
+  color: blue !important;
+  border: 1px solid blue;
+}
